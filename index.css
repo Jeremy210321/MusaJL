@@ -1,0 +1,284 @@
+body {
+    background-color: #E6E6E6;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+/*Header */
+.header {
+    background-image: url("images/set-virtual.png");
+    width: auto;
+    height: 550px;
+
+}
+.btn-primary{
+    background-color: transparent;
+    border-color: rebeccapurple;
+    color: #521788;
+    font-weight: bold;
+}
+.btn-secondary{
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+    color: white;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #963ea5;
+    border-color: #963ea5;
+}
+.btn-secondary:hover {
+    color: white;
+    background-color: #963ea5;
+    border-color: #963ea5;
+}
+
+
+.navbar{
+
+    font-weight: bold;
+    height: 90px;
+    background-color:  #C3AECD;
+    position: relative;
+    opacity: 0.9;
+}
+.navbar-collapse {
+justify-content: flex-end;
+}
+.navbar-brand img {
+    max-width: 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rebeccapurple;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rebeccapurple;
+}
+.foro{
+    margin-left: 70px;
+    margin-top: 40px;
+    display: grid;
+}
+.mute-button{
+    background-color: #00DEBE;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/*Description*/
+.description{
+    margin-top: 20px;
+    height: 600px;
+}
+.row_description{
+    height: 600px;
+}
+.heart{
+    background-image: url("images/medicinas_lila_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heart h1{
+    color: #6138F6;
+    font-weight: bold;
+    padding-left: 70px;
+}
+h1{
+    color: #6138F6;
+    font-weight: bold;
+}
+h5{
+    color: #28326B;
+    font-weight: bold;
+}
+.past{
+    background-image: url(images/Pastillas.png);
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 100px;
+    width: fit-content;
+    height: auto;
+}
+.card_row{
+    display: flex;
+    margin-right: 20px;
+}
+.card-title{
+    color: #6138F6;
+    font-weight: bold;
+}
+.past .card-text{
+    color: #28326B;
+}
+.card{
+    margin: 10px 10px;
+    border-radius: 10px;
+    opacity: 0.75;
+    box-shadow: -4px 4px 8px #7C8B88;
+}
+.fas{
+    font-size: 25px;
+}
+/*Ponenecias*/
+.ponencias{
+    margin-top: 60px;
+    min-width: 3000px;
+    margin-left: 70px;
+}
+
+.big-cards{
+    display: flex;
+    min-width: 3000px;
+}
+.big-cards .card{
+    opacity: 1;
+
+}
+.big-cards .card-title{
+    color: rebeccapurple;
+    font-size: 8mm;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.big_card{
+    background-repeat: no-repeat;
+    height: 751px;
+    min-width: 339px;
+    max-width: 440px;
+    border-radius: 30px;
+}
+.c1 {
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 1.png");
+ }
+.c2 {
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 2.png");
+}
+.c3 {
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 3.png");
+}
+.c4 {
+    background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 4.png");
+}
+.body-title{
+    color: #6138F6;
+    font-size: 6mm;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 265px;
+}
+.big_card p{
+    color: #27326C;
+    font-weight: bold;
+}
+.fa-calendar-alt{
+    padding: 5px 20px;
+    font-size: 25px;
+    color: rebeccapurple;
+}
+.wrapper{
+    overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+/*Events*/
+.events{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.smaller-card{
+    border-radius: 30px;
+}
+.card1 {
+    background-color: #28326B;
+
+    opacity: 1;
+}
+.events .card-text{
+    color: white;
+    font-weight: bold;
+}
+
+.card2{
+    background-color: mediumturquoise;
+    color: #28326B;
+    font-weight: bold;
+    opacity: 1;
+}
+.card-img-top{
+    border-radius: 30px 30px 0 0;
+    max-height: 215px;
+    max-width: 286px;
+}
+
+/*Speakers*/
+.speakers{
+    margin-top: 60px;
+    margin-left: 70px;
+}
+.card-img{
+
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid #6138F6;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.speakers .card{
+    opacity: 1;
+    box-shadow: none;
+}
+.speakers .btn-primary{
+    font-size: 14px;
+    border-radius: 10px;
+    color: #6138F6;
+}
+.content-card p{
+    color: #27326C;
+    font-weight: bold;
+}
+.content-card{
+    padding-left: 20px;
+}
+.fa-linkedin{
+    font-size: 25px;
+    color: #6138F6;
+    margin-top: 10px;
+}
+.fa-envelope{
+    font-size: 25px;
+    color: #6138F6;
+}
+.row_doctors{
+    padding-top: 15px;
+}
+/*Footer*/
+.footer{
+    background-color: #01DEBE;
+    height: 96px;
+    margin-top: 120px;
+}
+.musa{
+    max-height: 96px;
+}
+.musa1{
+    top: -420%;
+    position: relative;
+    left: -50%;
+}
+ .musa2{
+     top: -270%;
+     position: relative;
+     right: -10%;
+ }
+ .musa-logo{
+     text-align: center;
+     padding-top: 15px;
+ }

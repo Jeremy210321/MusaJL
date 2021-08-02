@@ -5,8 +5,9 @@ body {
 /*Header */
 .header {
     background-image: url("images/set-virtual.png");
-    width: auto;
+    background-size: 100%;
     height: 550px;
+    background-repeat: no-repeat;
 
 }
 .btn-primary{
@@ -67,7 +68,9 @@ justify-content: flex-end;
     margin-left: 50px;
     margin-top: 30px;
 }
-
+.wrapper{
+    overflow: auto;
+}
 /*Description*/
 .description{
     margin-top: 20px;
@@ -130,8 +133,9 @@ h5{
 }
 
 .big-cards{
-    display: flex;
-    min-width: 3000px;
+    /* display: flex; */
+    /* min-width: 3000px; */
+    margin-left: 20px;
 }
 .big-cards .card{
     opacity: 1;
@@ -146,13 +150,14 @@ h5{
 .big_card{
     background-repeat: no-repeat;
     height: 751px;
-    min-width: 339px;
-    max-width: 440px;
+    min-width: 450px;
+    /* max-width: 440px; */
     border-radius: 30px;
+    margin-left: 100px;
 }
 .c1 {
     background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 1.png");
- }
+}
 .c2 {
     background-image: linear-gradient(to bottom, rgba(87,89,105,0.32), rgba(5,218,205, 0.53)), url("images/En vivo 2.png");
 }
@@ -179,10 +184,16 @@ h5{
     color: rebeccapurple;
 }
 .wrapper{
-    overflow-x: auto;
+    overflow-x: visible;
+    display: flex;
+    max-width: 1800px;
 }
 .wrapper::-webkit-scrollbar{
-    width: 0;
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    border:1px solid #BCA9C5;
+    border-radius:40px;
 }
 /*Events*/
 .events{
@@ -267,6 +278,7 @@ h5{
 }
 .musa{
     max-height: 96px;
+    clip-path: inset(3% 0 0 2.5%);
 }
 .musa1{
     top: -420%;
